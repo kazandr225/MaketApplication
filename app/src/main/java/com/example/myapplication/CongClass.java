@@ -1,21 +1,20 @@
 package com.example.myapplication;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class RegClass extends AppCompatActivity {
+public class CongClass extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.registration);
+        setContentView(R.layout.activity_cong_class);
     }
-
-    public  void reg(View v)
+    public  void nxt(View v)
     {
-        startActivity (new Intent(this, CongratsClass.class));
+        startActivity (new Intent(this, MainActivity.class));
     }
 }
