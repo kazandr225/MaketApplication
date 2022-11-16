@@ -9,9 +9,9 @@
 </item>
     <item android:state_pressed="true">
     <shape android:shape="oval">
-    <solid android:color="#E91E63"/>
+    <solid android:color="#F199B7"/>
     <stroke android:width="4dip"
-        android:color="#E91E63"/>
+        android:color="#F199B7"/>
     </shape>
     </item>
 </selector>
