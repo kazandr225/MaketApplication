@@ -10,13 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/googlebtn"
             android:layout_width="125dp"
             android:layout_height="50dp"
             android:text="Google"
             android:textColor="@color/mncolor"
-            android:background="@drawable/roundedbutton"
+            android:background="@drawable/button_shape_circle"
             android:textSize="14dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -27,13 +27,13 @@
             app:layout_constraintWidth_default="percent"
             app:layout_constraintWidth_percent="0.8" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/facebookbtn"
             android:layout_width="125dp"
             android:layout_height="50dp"
-            android:backgroundTint="@color/grey"
             android:text="Facebook"
             android:textColor="@color/mncolor"
+            android:background="@drawable/button_shape_circle"
             android:textSize="14dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,11 +44,11 @@
             app:layout_constraintWidth_default="percent"
             app:layout_constraintWidth_percent="0.8" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/logbtn"
             android:layout_width="125dp"
             android:layout_height="50dp"
-            android:backgroundTint="@color/grey"
+            android:background="@drawable/button_shape_circle"
             android:onClick="reg"
             android:text="Register"
             android:textColor="@color/mncolor"

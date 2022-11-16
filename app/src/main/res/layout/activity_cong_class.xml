@@ -48,11 +48,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/nxtButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/grey"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:background="@drawable/button_shape_circle"
             android:onClick="nxt"
             android:text="Get Started"
             android:textColor="@color/mncolor"
