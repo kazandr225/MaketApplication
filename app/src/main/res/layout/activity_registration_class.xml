@@ -46,8 +46,8 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/logbtn"
-            android:layout_width="125dp"
-            android:layout_height="50dp"
+            android:layout_width="302dp"
+            android:layout_height="54dp"
             android:background="@drawable/button_shape_circle"
             android:onClick="reg"
             android:text="Register"

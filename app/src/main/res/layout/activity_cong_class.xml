@@ -50,8 +50,8 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/nxtButton"
-            android:layout_width="120dp"
-            android:layout_height="45dp"
+            android:layout_width="188dp"
+            android:layout_height="49dp"
             android:background="@drawable/button_shape_circle"
             android:onClick="nxt"
             android:text="Get Started"
