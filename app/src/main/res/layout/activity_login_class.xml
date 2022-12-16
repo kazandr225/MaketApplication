@@ -66,13 +66,14 @@
                 android:id="@+id/Login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="32dp"
+                android:layout_marginStart="40dp"
                 android:layout_marginTop="56dp"
                 android:text="Login"
                 android:textColor="@color/mncolor"
                 android:textSize="32sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
 
             <EditText
                 android:id="@+id/email"
@@ -91,7 +92,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/Login"
                 tools:ignore="TouchTargetSizeCheck" />
-
 
             <EditText
                 android:id="@+id/password"
@@ -135,8 +135,7 @@
                 android:theme="@style/RadioButton"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fpass"
-                tools:ignore="TouchTargetSizeCheck"
-                tools:text="Remember my password" />
+                tools:ignore="TouchTargetSizeCheck" />
 
             <TextView
                 android:id="@+id/fpass"
@@ -167,6 +166,18 @@
                 app:layout_constraintTop_toBottomOf="@+id/googlebtn"
                 app:layout_constraintVertical_bias="1.0"
                 tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="5dp"
+                android:text="Remember my password"
+                android:textColor="@color/mncolor"
+                app:layout_constraintStart_toEndOf="@+id/radioButton"
+                app:layout_constraintTop_toBottomOf="@+id/fpass"
+                tools:text="Remember my password" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
